@@ -17,3 +17,11 @@ y ngFor van a tener que hacer un wraper al rededor de la lista para utilizar el 
 <br>2 posibles formas de entrega:
 - Crear un nuevo repo en github publico y mandarnos el link por el aula virtual.
 - Subir un comprimido al aula virtual. (Si suben la carpeta node_modules se bajan puntos)
+
+## Pasos para levantar el proyecto:
+
+### Primero Instalar Dependencias:
+    - npm install
+
+### Segundo el Servidor:
+    - ng serve -o
