@@ -1,6 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
-  :host {
+/* angular material */
+html, body { height: 100%; width: 100%; }
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+  background-color: #373434;
+}
+
+
+/* Angular Deafault */
+  /* :host {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
     color: #333;
@@ -59,6 +69,7 @@
   }
 
   .content {
+   
     display: flex;
     margin: 82px auto 32px;
     padding: 0 16px;
@@ -264,7 +275,7 @@
     width: 1920px;
   }
 
-  /* Responsive Styles */
+  /* Responsive Styles *
   @media screen and (max-width: 767px) {
     .card-container > *:not(.circle-link) ,
     .terminal {
@@ -293,5 +304,4 @@
     }
   }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+ */
