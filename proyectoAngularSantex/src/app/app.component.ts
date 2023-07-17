@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 
-type Products = {
-  id: number
-  name: string
-  price: string
-}
+// type Products = {
 
+//   position: number
+//   name: string
+//   cost: string
+
+// }
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -13,15 +14,9 @@ type Products = {
 })
 export class AppComponent {
 
-  showList:boolean = true
-  message:string = ''
-  statusButton:string = ''
-  
-  products: Products [] = [
-    { "id": 1, "name": "Harina", "price": "$ 300" }, 
-    { "id": 2, "name": "Azucar", "price": "$ 600" },
-    { "id": 3, "name": "Yerba", "price": "$ 150" }
 
-  ]
-
+  // product: Products[] = [
+  //   { position: 1, name: 'nombre1', cost: '10' },
+  //   { position: 2, name: 'nombre2', cost: '20' },
+  // ]
 }
